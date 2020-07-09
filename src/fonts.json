@@ -1,0 +1,125 @@
+[{
+  "id": "migu",
+  "name": "migu",
+  "description": "a set of icons representing programming languages, designing & development tools. http://devicon.fr/",
+  "filename": "./src/glyphs/migu-1m-regular.ttf",
+  "unicode_range": ["00FF", "FFFF"]
+}, {
+  "id": "seti-ui",
+  "name": "Seti UI",
+  "description": "a set of icons for Seti UI. https://atom.io/themes/seti-ui",
+  "filename": "./src/glyphs/original-source.otf",
+  "unicode_range": ["E4FA", "E52E"],
+  "remap_start_point": "E5FA",
+  "scale": 0.8,
+  "adjust_position": true,
+  "exact_encoding": false
+}, {
+  "id": "devicon",
+  "name": "Devicon",
+  "description": "a set of icons representing programming languages, designing & development tools. http://devicon.fr/",
+  "filename": "./src/glyphs/devicons.ttf",
+  "unicode_range": ["E600", "E6C5"],
+  "remap_start_point": "E700",
+  "scale": 0.95,
+  "adjust_position": true,
+  "exact_encoding": false
+}, {
+  "id": "powerline-extra",
+  "name": "Powerline Extra Symbols",
+  "description": "Extra glyphs for the powerline separators. https://github.com/ryanoasis/powerline-extra-symbols",
+  "filename": "./src/glyphs/PowerlineExtraSymbols.otf",
+  "unicode_range": ["E0A3", "E0D4"]
+}, {
+  "id": "powerline",
+  "name": "Powerline Symbols",
+  "description": "https://github.com/powerline/powerline",
+  "filename": "./src/glyphs/PowerlineSymbols.otf",
+  "unicode_range": ["E0A0", "E0B3"]
+}, {
+  "id": "pomicons",
+  "name": "Pomicons",
+  "description": "A set of icons for Pomodoro Technique. https://github.com/gabrielelana/pomicons",
+  "filename": "./src/glyphs/Pomicons.otf",
+  "unicode_range": ["E000", "E00A"],
+  "adjust_position": true
+}, {
+  "id": "fa",
+  "name": "Font Awesome",
+  "description": "http://fontawesome.io/",
+  "filename": "./src/glyphs/FontAwesome.otf",
+  "unicode_range": ["F000", "F2E0"],
+  "scale": 0.9,
+  "adjust_position": true
+}, {
+  "id": "fae",
+  "name": "Font Awesome Extension",
+  "description": "http://andrelgava.github.io/font-awesome-extension/",
+  "filename": "./src/glyphs/font-awesome-extension.ttf",
+  "unicode_range": ["E000", "E0A9"],
+  "remap_start_point": "E200",
+  "scale": 0.75,
+  "adjust_position": true,
+  "exact_encoding": false
+}, {
+  "id": "linux",
+  "name": "Font Linux",
+  "description": "https://github.com/Lukas-W/font-linux",
+  "filename": "./src/glyphs/font-logos.ttf",
+  "unicode_range": ["F100", "F11C"],
+  "remap_start_point": "F300",
+  "scale": 0.85,
+  "adjust_position": true,
+  "exact_encoding": false
+}, {
+  "id": "power-symbols",
+  "name": "Power Symbols",
+  "description": "https://github.com/Lukas-W/font-linux",
+  "filename": "./src/glyphs/Unicode_IEC_symbol_font.otf",
+  "unicode_range": ["23FB", "23FE"],
+  "adjust_position": true
+}, {
+  "id": "power-symbols-2",
+  "name": "Power Symbols",
+  "description": "https://github.com/Lukas-W/font-linux",
+  "filename": "./src/glyphs/Unicode_IEC_symbol_font.otf",
+  "unicode_range": ["2B58", "2B58"],
+  "adjust_position": true
+}, {
+  "id": "octicons",
+  "name": "Github Octicons",
+  "description": "https://octicons.github.com",
+  "filename": "./src/glyphs/octicons.ttf",
+  "unicode_range": ["F000", "F105"],
+  "remap_start_point": "F400",
+  "scale": 0.9,
+  "adjust_position": true,
+  "exact_encoding": false
+}, {
+  "id": "octicons",
+  "name": "Github Octicons",
+  "description": "https://octicons.github.com",
+  "filename": "./src/glyphs/octicons.ttf",
+  "unicode_range": ["F27C", "F27C"],
+  "remap_start_point": "F4A9",
+  "scale": 0.9,
+  "adjust_position": true
+}, {
+  "id": "material",
+  "name": "Material Design",
+  "description": "https://octicons.github.com",
+  "filename": "./src/glyphs/materialdesignicons-webfont.ttf",
+  "unicode_range": ["F001", "F847"],
+  "remap_start_point": "F500",
+  "adjust_position": true,
+  "exact_encoding": false
+}, {
+  "id": "weather",
+  "name": "Weather Icons",
+  "description": "https://octicons.github.com",
+  "filename": "./src/glyphs/weathericons-regular-webfont.ttf",
+  "unicode_range": ["F000", "F0EB"],
+  "remap_start_point": "E300",
+  "adjust_position": true,
+  "exact_encoding": false
+}]

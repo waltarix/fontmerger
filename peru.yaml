@@ -1,0 +1,93 @@
+imports:
+  firacode-regular: ./src/base
+  migu-1m-regular: ./src/glyphs
+  FontAwesome: ./src/glyphs
+  NerdFontsSymbols%201000%20EM%20Nerd%20Font%20Complete%20Blank: ./src/glyphs
+  NerdFontsSymbols%202048%20EM%20Nerd%20Font%20Complete%20Blank: ./src/glyphs
+  Pomicons: ./src/glyphs
+  PowerlineExtraSymbols: ./src/glyphs
+  PowerlineSymbols: ./src/glyphs
+  Symbols%20Template%201000%20em: ./src/glyphs
+  Symbols%20Template%202048%20em: ./src/glyphs
+  Symbols-1000-em%20Nerd%20Font%20Complete: ./src/glyphs
+  Symbols-2048-em%20Nerd%20Font%20Complete: ./src/glyphs
+  Unicode_IEC_symbol_font: ./src/glyphs
+  devicons: ./src/glyphs
+  font-awesome-extension: ./src/glyphs
+  font-logos: ./src/glyphs
+  materialdesignicons-webfont: ./src/glyphs
+  octicons: ./src/glyphs
+  original-source: ./src/glyphs
+  weathericons-regular-webfont: ./src/glyphs
+
+curl module firacode-regular:
+  url: https://raw.githubusercontent.com/tonsky/FiraCode/5.2/distr/ttf/FiraCode-Regular.ttf
+  sha1: 8312082ca5e551a7299c758fa62ef9e6e9c3d158
+
+curl module migu-1m-regular:
+  url: https://jaist.dl.osdn.jp/mix-mplus-ipa/72511/migu-1m-20200307.zip
+  unpack: zip
+  export: migu-1m-20200307/
+  pick: migu-1m-20200307/migu-1m-regular.ttf
+  sha1: d69fe63677c00af792ff0bed9e77be02b7f6d048
+
+curl module FontAwesome:
+  url: https://raw.githubusercontent.com/ryanoasis/nerd-fonts/2.1.0/src/glyphs/FontAwesome.otf
+  sha1: 048707bc52ac4b6563aaa383bfe8660a0ddc908c
+curl module NerdFontsSymbols%201000%20EM%20Nerd%20Font%20Complete%20Blank:
+  url: https://raw.githubusercontent.com/ryanoasis/nerd-fonts/2.1.0/src/glyphs/NerdFontsSymbols%201000%20EM%20Nerd%20Font%20Complete%20Blank.sfd
+  filename: NerdFontsSymbols 1000 EM Nerd Font Complete Blank.sfd
+  sha1: a7643458361e0d377df109b74aac6d4661e80708
+curl module NerdFontsSymbols%202048%20EM%20Nerd%20Font%20Complete%20Blank:
+  url: https://raw.githubusercontent.com/ryanoasis/nerd-fonts/2.1.0/src/glyphs/NerdFontsSymbols%202048%20EM%20Nerd%20Font%20Complete%20Blank.sfd
+  filename: NerdFontsSymbols 2048 EM Nerd Font Complete Blank.sfd
+  sha1: 4a9f071854c3b71e8a1a9d022764d75fbbb642c6
+curl module Pomicons:
+  url: https://raw.githubusercontent.com/ryanoasis/nerd-fonts/2.1.0/src/glyphs/Pomicons.otf
+  sha1: cb03e61059e2c0d4fda84a0118c7817f2055fc88
+curl module PowerlineExtraSymbols:
+  url: https://raw.githubusercontent.com/ryanoasis/nerd-fonts/2.1.0/src/glyphs/PowerlineExtraSymbols.otf
+  sha1: 1bd2f06a7583aa3a676c9d1f4630862114197136
+curl module PowerlineSymbols:
+  url: https://raw.githubusercontent.com/ryanoasis/nerd-fonts/2.1.0/src/glyphs/PowerlineSymbols.otf
+  sha1: b5eff3c621132f75195c2cef18ba06d65547646b
+curl module Symbols%20Template%201000%20em:
+  url: https://raw.githubusercontent.com/ryanoasis/nerd-fonts/2.1.0/src/glyphs/Symbols%20Template%201000%20em.ttf
+  filename: Symbols Template 1000 em.ttf
+  sha1: a459dcb4a3bf51a8842afd1ad5b3bd830d2560fb
+curl module Symbols%20Template%202048%20em:
+  url: https://raw.githubusercontent.com/ryanoasis/nerd-fonts/2.1.0/src/glyphs/Symbols%20Template%202048%20em.ttf
+  filename: Symbols Template 2048 em.ttf
+  sha1: ac37ec195d49b99cba835d5c37820a56223758f0
+curl module Symbols-1000-em%20Nerd%20Font%20Complete:
+  url: https://raw.githubusercontent.com/ryanoasis/nerd-fonts/2.1.0/src/glyphs/Symbols-1000-em%20Nerd%20Font%20Complete.ttf
+  filename: Symbols-1000-em Nerd Font Complete.ttf
+  sha1: 5c08c3b8942847291f41e3c2170676e03b9c20cf
+curl module Symbols-2048-em%20Nerd%20Font%20Complete:
+  url: https://raw.githubusercontent.com/ryanoasis/nerd-fonts/2.1.0/src/glyphs/Symbols-2048-em%20Nerd%20Font%20Complete.ttf
+  filename: Symbols-2048-em Nerd Font Complete.ttf
+  sha1: 64ffa39cc13a8128187daf7fe7660fce121e91e5
+curl module Unicode_IEC_symbol_font:
+  url: https://raw.githubusercontent.com/ryanoasis/nerd-fonts/2.1.0/src/glyphs/Unicode_IEC_symbol_font.otf
+  sha1: ef663ec45b57fa211ced27f0ccd7fed089eaab61
+curl module devicons:
+  url: https://raw.githubusercontent.com/ryanoasis/nerd-fonts/2.1.0/src/glyphs/devicons.ttf
+  sha1: abf7f63015089b975c0f6b7faf615c97a83e7fe2
+curl module font-awesome-extension:
+  url: https://raw.githubusercontent.com/ryanoasis/nerd-fonts/2.1.0/src/glyphs/font-awesome-extension.ttf
+  sha1: 4e888fa031dca690844d6d25006c832735d0dcfa
+curl module font-logos:
+  url: https://raw.githubusercontent.com/ryanoasis/nerd-fonts/2.1.0/src/glyphs/font-logos.ttf
+  sha1: 9761d9f8e46867765811aa820512aa13a0fe4adb
+curl module materialdesignicons-webfont:
+  url: https://raw.githubusercontent.com/ryanoasis/nerd-fonts/2.1.0/src/glyphs/materialdesignicons-webfont.ttf
+  sha1: aac61a684025ade260c347309a93f84f4ba09d21
+curl module octicons:
+  url: https://raw.githubusercontent.com/ryanoasis/nerd-fonts/2.1.0/src/glyphs/octicons.ttf
+  sha1: 5c5e30601945170e7a7c0aa4de082652dc273502
+curl module original-source:
+  url: https://raw.githubusercontent.com/ryanoasis/nerd-fonts/2.1.0/src/glyphs/original-source.otf
+  sha1: 4ef1c7a0986b8b7d86451311eedc9f1590f4fa51
+curl module weathericons-regular-webfont:
+  url: https://raw.githubusercontent.com/ryanoasis/nerd-fonts/2.1.0/src/glyphs/weathericons-regular-webfont.ttf
+  sha1: 9916e3dbc3990e3073cf5a2cb4c2e958273b7532
