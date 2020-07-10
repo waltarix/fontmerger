@@ -14,12 +14,11 @@ RUN apt-get update \
 		python3-pip=20.0.2-5ubuntu1 \
 	&& apt-get clean \
 	&& rm -rf /var/lib/apt/lists/* \
-	&& pip3 install peru==1.2.0
+	&& pip3 --no-cache-dir install peru==1.2.0
 
 ENV PYTHONDONTWRITEBYTECODE=1
-ENV TZ=Asia/Tokyo
 
-COPY ./entrypoint.sh /usr/local/bin
+COPY entrypoint.sh /usr/local/bin
 
 WORKDIR /fontmerger
 ENTRYPOINT ["entrypoint.sh"]

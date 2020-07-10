@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 if hash fontforge 2>/dev/null; then
   fontforge -script fontmerger/__init__.py "$@" 2>/dev/null

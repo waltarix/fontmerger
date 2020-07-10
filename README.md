@@ -11,6 +11,7 @@ cf. https://github.com/iij/fontmerger.git
 
 ```sh
 $ make font
+# If you prefer Ubuntu to Alpine, the target "font-by-ubuntu" is available.
 
 $ tree dist
 dist
